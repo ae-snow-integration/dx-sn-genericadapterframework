@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="API Parameters" max_length="40" name="x_211416_dx_gif_api_parameters" type="collection">
+        <element label="Parameter Name" mandatory="true" max_length="30" name="parameter_name" type="string"/>
+    </element>
+</database>
