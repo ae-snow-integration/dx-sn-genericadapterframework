@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="parameter_data_type" table="x_211416_dx_gif_api_parameters" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>parameter_data_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>String</label>
+            <language>en</language>
+            <name>x_211416_dx_gif_api_parameters</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-18 07:27:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aecabecddb321300dadc5421cf96195d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-18 07:27:59</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>parameter_data_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Integer</label>
+            <language>en</language>
+            <name>x_211416_dx_gif_api_parameters</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-18 07:28:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8da3ecddb321300dadc5421cf9619c9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-18 07:28:19</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>parameter_data_type</element>
+            <name>x_211416_dx_gif_api_parameters</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-18 07:27:49</sys_created_on>
+            <sys_id>e4dabecddb321300dadc5421cf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>parameter_data_type</sys_name>
+            <sys_package display_value="Generic Integration Framework" source="x_211416_dx_gif">30132e01db321300dadc5421cf961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Generic Integration Framework">30132e01db321300dadc5421cf961904</sys_scope>
+            <sys_update_name>sys_choice_x_211416_dx_gif_api_parameters_parameter_data_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-18 07:27:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

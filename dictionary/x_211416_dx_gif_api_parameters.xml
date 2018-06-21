@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="API Parameters" max_length="40" name="x_211416_dx_gif_api_parameters" type="collection">
+        <element label="API Reference" mandatory="true" max_length="32" name="api_reference" reference="x_211416_dx_gif_api_configuration" type="reference"/>
+        <element label="Length" max_length="40" name="length" type="integer"/>
+        <element choice="3" default="String" label="Parameter Data Type" max_length="40" name="parameter_data_type" type="choice">
+            <choice>
+                <element label="String" sequence="1" value="10"/>
+                <element label="Integer" sequence="2" value="20"/>
+            </choice>
+        </element>
         <element label="Parameter Name" mandatory="true" max_length="30" name="parameter_name" type="string"/>
+        <element choice="3" label="Parameter Type" max_length="40" name="parameter_type" type="choice">
+            <choice>
+                <element label="Header" sequence="1" value="100"/>
+                <element label="Payload" sequence="2" value="200"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="api_reference"/>
+        </index>
     </element>
 </database>

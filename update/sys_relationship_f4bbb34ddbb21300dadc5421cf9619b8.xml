@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_211416_dx_gif_api_configuration</basic_apply_to>
+        <basic_query_from>x_211416_dx_gif_api_parameters</basic_query_from>
+        <insert_callback/>
+        <name>API_Config_to_Params_Payload</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+	current.addQuery('api_reference', parent.sys_id);
+	current.addQuery('parameter_type', 200);
+})(current, parent);]]></query_with>
+        <reference_field>api_reference</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-18 12:14:22</sys_created_on>
+        <sys_id>f4bbb34ddbb21300dadc5421cf9619b8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>API_Config_to_Params_Payload</sys_name>
+        <sys_package display_value="Generic Integration Framework" source="x_211416_dx_gif">30132e01db321300dadc5421cf961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Generic Integration Framework">30132e01db321300dadc5421cf961904</sys_scope>
+        <sys_update_name>sys_relationship_f4bbb34ddbb21300dadc5421cf9619b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-18 12:39:36</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=f4bbb34ddbb21300dadc5421cf9619b8"/>
+</record_update>

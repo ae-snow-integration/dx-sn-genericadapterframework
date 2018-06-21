@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="API Configuration" max_length="40" name="x_211416_dx_gif_api_configuration" type="collection">
+        <element label="API URL" mandatory="true" max_length="400" name="api_url" type="string"/>
+        <element display="true" label="Application Name" mandatory="true" max_length="40" name="application_name" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Headers" max_length="1024" name="list_header_params" reference="x_211416_dx_gif_api_parameters" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Payload Parameters" max_length="1024" name="list_payload_params" reference="x_211416_dx_gif_api_parameters" type="glide_list"/>
+        <element choice="3" label="Operation" mandatory="true" max_length="10" name="operation" type="choice">
+            <choice>
+                <element label="GET" sequence="1" value="10"/>
+                <element label="POST" sequence="2" value="20"/>
+                <element label="PUT" sequence="3" value="30"/>
+                <element label="DELETE" sequence="4" value="40"/>
+            </choice>
+        </element>
+        <element label="Password" mandatory="true" max_length="30" name="password" type="password"/>
+        <element choice="3" label="Request Type" mandatory="true" max_length="10" name="request_type" type="choice">
+            <choice>
+                <element label="REST" sequence="1" value="100"/>
+                <element label="SOAP" sequence="2" value="200"/>
+            </choice>
+        </element>
+        <element label="Username" mandatory="true" max_length="30" name="username" type="string"/>
+    </element>
+</database>

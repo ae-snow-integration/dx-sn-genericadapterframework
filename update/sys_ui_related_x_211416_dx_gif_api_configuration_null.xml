@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_211416_dx_gif_api_configuration" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="API Configuration - Default view" name="x_211416_dx_gif_api_configuration" related_list="NULL" sys_domain="global" view="Default view">fe920c11dbf21300dadc5421cf9619e8</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:f891c4dddbb21300dadc5421cf9619ca</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-18 12:41:27</sys_created_on>
+            <sys_id>b6920c11dbf21300dadc5421cf9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-18 12:41:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="API Configuration - Default view" name="x_211416_dx_gif_api_configuration" related_list="NULL" sys_domain="global" view="Default view">fe920c11dbf21300dadc5421cf9619e8</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:f4bbb34ddbb21300dadc5421cf9619b8</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-18 12:41:27</sys_created_on>
+            <sys_id>ba920c11dbf21300dadc5421cf9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-18 12:41:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>API Configuration - Default view</calculated_name>
+            <filter/>
+            <name>x_211416_dx_gif_api_configuration</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-18 12:41:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe920c11dbf21300dadc5421cf9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>API Configuration - Default view</sys_name>
+            <sys_package display_value="Generic Integration Framework" source="x_211416_dx_gif">30132e01db321300dadc5421cf961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Generic Integration Framework">30132e01db321300dadc5421cf961904</sys_scope>
+            <sys_update_name>sys_ui_related_x_211416_dx_gif_api_configuration_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-18 12:41:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
