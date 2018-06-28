@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="parent_id" label="Parent ID" language="en" table="x_211416_dx_gif_api_request_mapping">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>parent_id</element>
+            <help/>
+            <hint/>
+            <label>Parent ID</label>
+            <language>en</language>
+            <name>x_211416_dx_gif_api_request_mapping</name>
+            <plural>Parent IDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-27 08:39:44</sys_created_on>
+            <sys_id>a591ed844f4313009e6a38a18110c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Parent ID</sys_name>
+            <sys_package display_value="Generic Integration Framework" source="x_211416_dx_gif">30132e01db321300dadc5421cf961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Generic Integration Framework">30132e01db321300dadc5421cf961904</sys_scope>
+            <sys_update_name>sys_documentation_x_211416_dx_gif_api_request_mapping_parent_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-27 08:39:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

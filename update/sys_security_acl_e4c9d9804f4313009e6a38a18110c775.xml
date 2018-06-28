@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_211416_dx_gif_api_request_integration</description>
+        <name>x_211416_dx_gif_api_request_integration</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 08:05:32</sys_created_on>
+        <sys_id>e4c9d9804f4313009e6a38a18110c775</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_211416_dx_gif_api_request_integration</sys_name>
+        <sys_package display_value="Generic Integration Framework" source="x_211416_dx_gif">30132e01db321300dadc5421cf961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Generic Integration Framework">30132e01db321300dadc5421cf961904</sys_scope>
+        <sys_update_name>sys_security_acl_e4c9d9804f4313009e6a38a18110c775</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 08:05:32</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

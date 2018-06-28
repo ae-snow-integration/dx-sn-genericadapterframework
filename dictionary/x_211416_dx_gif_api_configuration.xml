@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="API Configuration" max_length="40" name="x_211416_dx_gif_api_configuration" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="API URL" mandatory="true" max_length="400" name="api_url" type="string"/>
         <element display="true" label="Application Name" mandatory="true" max_length="40" name="application_name" type="string"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Headers" max_length="1024" name="list_header_params" reference="x_211416_dx_gif_api_parameters" type="glide_list"/>
