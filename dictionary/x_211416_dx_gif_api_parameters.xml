@@ -9,7 +9,7 @@
                 <element label="Integer" sequence="2" value="20"/>
             </choice>
         </element>
-        <element label="Parameter Name" mandatory="true" max_length="30" name="parameter_name" type="string"/>
+        <element display="true" label="Parameter Name" mandatory="true" max_length="30" name="parameter_name" type="string"/>
         <element choice="3" label="Parameter Type" max_length="40" name="parameter_type" type="choice">
             <choice>
                 <element label="Header" sequence="1" value="100"/>

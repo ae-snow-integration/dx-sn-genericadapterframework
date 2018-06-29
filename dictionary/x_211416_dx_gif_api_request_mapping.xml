@@ -2,7 +2,6 @@
 <database>
     <element label="API Request Mapping" max_length="40" name="x_211416_dx_gif_api_request_mapping" type="collection">
         <element label="Parent ID" max_length="32" name="parent_id" reference="x_211416_dx_gif_api_request_integration" type="reference"/>
-        <element dependent="parent_id.sn_form" dependent_on_field="parent_id.sn_form" label="SN Field Name" max_length="80" name="sn_field_name" type="field_name" use_dependent_field="true"/>
         <index name="index">
             <element name="parent_id"/>
         </index>

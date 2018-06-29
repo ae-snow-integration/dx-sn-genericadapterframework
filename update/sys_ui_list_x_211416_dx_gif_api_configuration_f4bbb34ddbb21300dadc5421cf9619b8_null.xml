@@ -88,10 +88,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-27 08:52:51</sys_created_on>
+            <sys_created_on>2018-06-29 05:48:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bd94ed084f4313009e6a38a18110c7da</sys_id>
+            <sys_id>d88dc3a84f0b13009e6a38a18110c785</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_211416_dx_gif_api_parameters</sys_name>
             <sys_package display_value="Generic Integration Framework" source="x_211416_dx_gif">30132e01db321300dadc5421cf961904</sys_package>
@@ -99,7 +99,7 @@
             <sys_scope display_value="Generic Integration Framework">30132e01db321300dadc5421cf961904</sys_scope>
             <sys_update_name>sys_ui_list_x_211416_dx_gif_api_configuration_f4bbb34ddbb21300dadc5421cf9619b8_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-27 08:52:51</sys_updated_on>
+            <sys_updated_on>2018-06-29 05:48:11</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

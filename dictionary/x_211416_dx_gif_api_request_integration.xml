@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="API Request Integration" max_length="40" name="x_211416_dx_gif_api_request_integration" type="collection">
+        <element choice_field="parameter_type" choice_table="x_211416_dx_gif_api_parameters" label="API Parameter" max_length="40" name="api_parameter" reference="x_211416_dx_gif_api_parameters" reference_qual="api_referenceSAMEASapi_reference^EQ" reference_qual_condition="api_referenceSAMEASapi_reference^EQ" type="reference"/>
         <element label="Configured API" max_length="32" name="configured_api" reference="x_211416_dx_gif_api_configuration" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
-        <element dependent="sn_form" dependent_on_field="sn_form" display="true" label="SN Field Name" max_length="80" name="sn_field_name" type="field_name" use_dependent_field="true"/>
+        <element dependent="sn_form" dependent_on_field="sn_form" label="SN Field Name" max_length="80" name="sn_field_name" type="field_name" use_dependent_field="true"/>
         <element label="SN Form" max_length="80" name="sn_form" type="table_name"/>
         <index name="index">
             <element name="configured_api"/>
